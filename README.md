@@ -162,7 +162,32 @@ DELETE /api/reviews?id=${id}
 ![Unit and Integration Test Coverage](https://github.com/elifnurafsar/xxx/assets/60623941/418f512a-ab68-4814-87f0-f5a6601622e9)
 
 
+## Screenshot Examples
 
+### Find top 3
+![findtop3](https://github.com/elifnurafsar/xxx/assets/60623941/c54555bc-eddb-4da4-b1a3-bd0ce8763443)
+
+### Create Comment
+![create_comment](https://github.com/elifnurafsar/xxx/assets/60623941/399370bc-8f16-4c60-8518-f669310cd135)
+
+### Get Comments By Restaurant ID
+
+![get_comments_by_restaurant_id](https://github.com/elifnurafsar/xxx/assets/60623941/d11748a1-33fb-4328-8c79-3b0ef4804e6a)
+
+### Get All Users
+
+![all_users](https://github.com/elifnurafsar/xxx/assets/60623941/db02a3b6-28db-42be-840b-1075e48c3246)
+
+### Create User
+
+![createUser](https://github.com/elifnurafsar/xxx/assets/60623941/dba97068-7a74-4e9c-9a8b-ea5305a130c8)
+
+### Delete User
+![delete_user](https://github.com/elifnurafsar/xxx/assets/60623941/883ab5a8-0fb4-446d-91af-a64812268625)
+
+### Example Error Case
+
+![save_user_error_case](https://github.com/elifnurafsar/xxx/assets/60623941/db8ed690-72c8-4660-88af-0ffd29860da3)
 
 
 ## Technologies
