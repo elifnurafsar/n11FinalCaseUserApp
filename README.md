@@ -3,6 +3,8 @@
 
 An advanced solution designed to efficiently manage user data and reviews, leveraging PostgreSQL for data storage. This application offers RESTful APIs for seamless user management, facilitating integration with various services. Developed using Spring Boot, it establishes a solid framework for user-related features, ensuring dependable performance and scalability.
 
+> [!IMPORTANT]  
+> Proje dosyalarının son commit'i 17 Martta yapılmasının ardından repository public'e alındığında README içerisindeki görsellerin benim dışımdaki diğer kullanıcılara gözükmediği tespit edilmiştir. Yapılan uyarı ardından sadece README dosyası güncellenip görseller tekrar yüklenerek son commit 18 Martta atılmıştır. Bu committe proje dosyalarında herhangi bir değişim olmamıştır. README'nin önceki sürümünde görsellerin 17 Mart tarihinde benim kullanıcım tarafından sorunsuz bir şekilde görüntülenebildiği projemin sunum videosunda gösterilmiştir.
 
 ## API Usage
 
@@ -165,29 +167,44 @@ DELETE /api/reviews?id=${id}
 ## Screenshot Examples
 
 ### Find top 3
-![findtop3](https://github.com/elifnurafsar/xxx/assets/60623941/c54555bc-eddb-4da4-b1a3-bd0ce8763443)
+
+![find_top_3](https://github.com/elifnurafsar/n11FinalCaseUserApp/assets/60623941/4aab91fe-cb59-4ea2-b21c-039b9f0cf008)
+
 
 ### Create Comment
-![create_comment](https://github.com/elifnurafsar/xxx/assets/60623941/399370bc-8f16-4c60-8518-f669310cd135)
+
+![create_comment](https://github.com/elifnurafsar/n11FinalCaseUserApp/assets/60623941/10975033-95d8-41e2-8242-e893fb9405d5)
+
 
 ### Get Comments By Restaurant ID
 
-![get_comments_by_restaurant_id](https://github.com/elifnurafsar/xxx/assets/60623941/d11748a1-33fb-4328-8c79-3b0ef4804e6a)
+![get_comments_by_restaurant_id](https://github.com/elifnurafsar/n11FinalCaseUserApp/assets/60623941/7810c6d4-c017-4fc4-89c3-b7979e591b66)
 
 ### Get All Users
 
-![all_users](https://github.com/elifnurafsar/xxx/assets/60623941/db02a3b6-28db-42be-840b-1075e48c3246)
+![get_all_users](https://github.com/elifnurafsar/n11FinalCaseUserApp/assets/60623941/4f988f02-761b-4ccd-934e-cc278c0987ce)
 
-### Create User
+### Update Comment
 
-![createUser](https://github.com/elifnurafsar/xxx/assets/60623941/dba97068-7a74-4e9c-9a8b-ea5305a130c8)
+#### Before Update
 
-### Delete User
-![delete_user](https://github.com/elifnurafsar/xxx/assets/60623941/883ab5a8-0fb4-446d-91af-a64812268625)
+<img src="https://github.com/elifnurafsar/n11FinalCaseUserApp/assets/60623941/8ddad553-09d8-4e71-ac27-5dfeb7bb60ca" alt="review before update" width="500">
+ 
+<img src= "https://github.com/elifnurafsar/n11FinalCaseUserApp/assets/60623941/2bbafe8f-01b3-4160-8916-89dd73c50471" alt="restaurant before update" width="500">
+
+#### Update
+
+![update_review](https://github.com/elifnurafsar/n11FinalCaseUserApp/assets/60623941/3cc5a1eb-c452-493d-8e11-86fcf05a741b)
+
+#### After Update
+
+<img src="https://github.com/elifnurafsar/n11FinalCaseUserApp/assets/60623941/0462f29a-711f-49f6-9aa8-f77e0c33aa93" alt="review after update" width="500">
+
+<img src= "https://github.com/elifnurafsar/n11FinalCaseUserApp/assets/60623941/247a9c4d-4628-4f18-8b5d-2beeaa3f3d87" alt="restaurant after update" width="500">
 
 ### Example Error Case
 
-![save_user_error_case](https://github.com/elifnurafsar/xxx/assets/60623941/db8ed690-72c8-4660-88af-0ffd29860da3)
+![error_case_example](https://github.com/elifnurafsar/n11FinalCaseUserApp/assets/60623941/60711010-31ca-4452-865a-0d5a8a1912ef)
 
 
 ## Technologies
